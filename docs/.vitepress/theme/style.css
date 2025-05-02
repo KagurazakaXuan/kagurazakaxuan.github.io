@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "Comme_webfont";
+    src: url("/fonts/Comme[wght].woff2") format("woff2-variations");
+}
+
+@font-face {
+    font-family: "DroidSansMono_webfont";
+    src: url("/fonts/DroidSansMono.ttf");
+}
+
+:root {
+    --vp-font-family-base: "Comme_webfont", sans-serif;
+    --vp-font-family-mono: "DroidSansMono_webfont", sans-serif;
+}
+
+.VPHero .VPImage {
+    box-shadow: 0px 0px 100px gray;
+}
